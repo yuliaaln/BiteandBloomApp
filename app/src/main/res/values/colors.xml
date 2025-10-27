@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="app_background">#FFFBEF</color>
+    <color name="app_light_pink">#FFDDE4</color>
+    <color name="app_medium_pink">#F7B5C2</color>
+    <color name="app_dark_pink">#E85A70</color>
+    <color name="app_maroon">#B0304B</color>
+    <color name="app_button">#E13E56</color>
+    <color name="app_button_text">#FFFFFFFF</color>
+    <color name="app_header_background">#FFE6EA</color>
+    <color name="app_text_primary">#5A2C2C</color>
+    <color name="app_text_secondary">#7A4E4E</color>
+</resources>

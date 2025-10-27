@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bite &amp; Bloom</string>
+
+    <!-- Judul utama -->
+    <string name="title_primary">A Sprinkle of Love,</string>
+    <string name="title_secondary">A Dash of Magic</string>
+
+    <!-- Tagline & deskripsi -->
+    <string name="tagline">Setiap gigitan adalah hasil resep kami yang dibuat dengan bahan premium — tekstur lembut, chewy, dan aroma butter yang menggoda.</string>
+    <string name="support_text">Bite &amp; Bloom menghadirkan kue yang tak hanya lezat, tetapi juga momen kecil kebahagiaan untukmu dan orang tersayang.</string>
+
+    <!-- Tombol CTA -->
+    <string name="button_order">Pesan Sekarang</string>
+    <string name="title_activity_order">OrderActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_register">RegisterActivity</string>
+</resources>

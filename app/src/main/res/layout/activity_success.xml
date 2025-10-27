@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_light_pink"
+    tools:context=".SuccessActivity">
+
+    <TextView
+        android:id="@+id/tv_halo_name_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:text="Halo,"
+        android:textColor="@color/app_maroon"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Pesan Terima Kasih -->
+    <TextView
+        android:id="@+id/tv_thank_you_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:lineSpacingExtra="4dp"
+        android:text="Terima kasih telah memesan di Bite and Bloom! \nPesananmu sedang diproses dengan penuh cinta \nMohon tetap berada di lokasi, kurir kami segera mengantarkan kelezatanmu!"
+        android:textStyle="bold"
+        android:textColor="@color/app_text_secondary"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_halo_name_success" />
+
+    <!-- Tombol Kirim (di paling bawah) -->
+    <Button
+        android:id="@+id/btn_kirim_success"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/card_background"
+        app:backgroundTint="@null"
+        android:paddingVertical="16dp"
+        android:text="Kirim"
+        android:textAllCaps="false"
+        android:textColor="@color/app_text_primary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
